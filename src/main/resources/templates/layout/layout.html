@@ -14,9 +14,11 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
 		<div th:replace="layout/header :: header">&nbsp;</div>
 		<div class="main">
 			<div th:replace="layout/navi :: navi">&nbsp;</div>
-			<th:block layout:fragment="layout-content">
-			    <p>Default layout content</p>
-			</th:block>
+			<div class="contants">
+				<th:block layout:fragment="layout-content">
+				    <p>Default layout content</p>
+				</th:block>
+			</div>
 		</div>
 	<script src="./lib/js/bootstrap.js"></script>
 	</body>

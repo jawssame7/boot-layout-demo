@@ -16,6 +16,16 @@ public class DemoController {
 		return "test";
 	}
 	
+	/**
+	 * レイアウト適用
+	 * @return
+	 */
+	@RequestMapping(value = "/index2")
+	public String index2() {
+		
+		return "test2";
+	}
+	
 	@RequestMapping(value = "/no-layout")
 	public String noLayout() {
 		return "no-layout";

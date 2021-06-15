@@ -1,14 +1,8 @@
 @charset "UTF-8";
 
-/* div.contants {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 100vh;
-    height: -webkit-fill-available;
-    max-height: 100vh;
-    overflow-x: auto;
-    overflow-y: hidden;
-} */
+div.contants {
+    padding: 10px;
+}
 
 html {
     height: 100%;
@@ -22,6 +16,7 @@ body {
 
 div.main {
     height: 100%;
+    display: flex;
 }
 
 div.side {
